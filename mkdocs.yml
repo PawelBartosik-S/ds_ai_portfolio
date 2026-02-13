@@ -5,6 +5,24 @@ site_description: >-
 
 theme:
   name: material
+  palette:
+    # Ustawienie dla trybu jasnego
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Przełącz na tryb ciemny
+
+    # Ustawienie dla trybu ciemnego
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Przełącz na tryb jasny
 
 nav:
 - Strona Domowa: index.md
@@ -12,5 +30,5 @@ nav:
   - "Titanic": titanic/index.md
 - Poprzednie projekty:
   - "Iris": iris/index.md
-  repo_name: PawelBartosik-S/ds_ai_portfolio.git
-  repo_url: https://github.com/PawelBartosik-S/ds_ai_portfolio.git
+repo_name: PawelBartosik-S/ds_ai_portfolio.git
+repo_url: https://github.com/PawelBartosik-S/ds_ai_portfolio.git
