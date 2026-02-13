@@ -10,7 +10,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
-      accent: indigo
+      accent: cyan
       toggle:
         icon: material/brightness-7
         name: Przełącz na tryb ciemny
@@ -19,7 +19,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
-      accent: indigo
+      accent: cyan
       toggle:
         icon: material/brightness-4
         name: Przełącz na tryb jasny
